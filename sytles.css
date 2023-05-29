@@ -84,3 +84,55 @@ p {
     color: #000000;
 
 }
+
+@media screen and (max-width: 900px ) {
+    header {
+        display: none;
+    }
+
+    p {
+        display: none;
+    }
+
+    h1 {
+        width: 253px;
+        height: 53px;
+        font-size: 62px;
+        line-height: 50px;
+        margin-left: -11px;
+    }
+
+    h2 {
+        width: 282px;
+    height: 46px;
+    font-size: 45px;
+    line-height: 50px;
+    margin-left: -26px;
+    }
+
+    .fist-text {
+        display: inline-block;
+        margin-left: 82px;
+        text-align: center;
+    }
+
+    .logo-image {
+        width: 354px;
+        height: 317px;
+        margin-left: 15px;
+        display: inline-block;
+        margin-top: 203px;
+    }
+    .button-main{    background-color: greenyellow;
+        border-radius: 20.5px;
+        width: 239px;
+        height: 64px;
+        border: none;
+        margin-top: 15px;
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 34px;
+        color: #000000;
+        margin-left: -30px;}
+}
